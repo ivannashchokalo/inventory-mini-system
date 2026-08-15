@@ -25,7 +25,6 @@ A full-stack inventory management application for managing products and their st
 - React Hook Form
 - Axios
 - CSS Modules
-- modern-normalize
 
 ### Backend
 - Node.js
@@ -46,7 +45,7 @@ Make sure Docker Desktop is installed and running.
 Clone the repository:
 
 ```bash
-git clone https://github.com/username/inventory-mini-system.git
+git clone https://github.com/ivannashchokalo/inventory-mini-system
 cd inventory-mini-system
 ```
 
