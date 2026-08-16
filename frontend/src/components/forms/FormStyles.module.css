@@ -22,7 +22,6 @@
 .input:focus {
   border-color: #131313;
 }
-
 .input[type="number"] {
   appearance: none;
   -webkit-appearance: none;
@@ -86,4 +85,13 @@
 
 .star {
   color: #cc3131;
+}
+
+.inputError {
+  border-color: #cc3131;
+}
+
+.inputError:focus,
+.inputError:hover {
+  border-color: #cc3131;
 }

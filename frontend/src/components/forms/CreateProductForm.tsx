@@ -41,7 +41,7 @@ export default function CreateProductForm() {
           Name:<span className={styles.star}>*</span>
         </label>
         <input
-          className={styles.input}
+          className={`${styles.input} ${errors.name && styles.inputError}`}
           id="name"
           type="text"
           {...register("name", {
@@ -59,7 +59,7 @@ export default function CreateProductForm() {
           Quantity:<span className={styles.star}>*</span>
         </label>
         <input
-          className={styles.input}
+          className={`${styles.input} ${errors.quantity && styles.inputError}`}
           id="quantity"
           type="number"
           {...register("quantity", {
@@ -80,7 +80,7 @@ export default function CreateProductForm() {
           Price:<span className={styles.star}>*</span>
         </label>
         <input
-          className={styles.input}
+          className={`${styles.input} ${errors.price && styles.inputError}`}
           id="price"
           type="number"
           step="0.01"

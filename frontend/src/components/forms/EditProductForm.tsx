@@ -51,7 +51,7 @@ export default function EditProductForm({ product }: EditProductFormProps) {
           Name:
         </label>
         <input
-          className={styles.input}
+          className={`${styles.input} ${errors.name && styles.inputError}`}
           id="name"
           type="text"
           {...register("name", {
@@ -69,7 +69,7 @@ export default function EditProductForm({ product }: EditProductFormProps) {
           Quantity:
         </label>
         <input
-          className={styles.input}
+          className={`${styles.input} ${errors.quantity && styles.inputError}`}
           id="quantity"
           type="number"
           {...register("quantity", {
@@ -91,7 +91,7 @@ export default function EditProductForm({ product }: EditProductFormProps) {
           Price:
         </label>
         <input
-          className={styles.input}
+          className={`${styles.input} ${errors.price && styles.inputError}`}
           id="price"
           type="number"
           step="0.01"

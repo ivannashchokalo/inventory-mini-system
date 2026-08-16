@@ -27,7 +27,7 @@
 
 .link:hover,
 .link:focus-visible {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .link:active {
