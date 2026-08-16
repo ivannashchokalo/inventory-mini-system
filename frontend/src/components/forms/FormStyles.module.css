@@ -15,6 +15,7 @@
   border: 1px solid #a2a2a2;
   font-size: 14px;
   outline: none;
+  transition: border-color 0.3s ease;
 }
 
 .input:hover,
@@ -46,6 +47,7 @@
   font-size: 14px;
   outline: none;
   resize: none;
+  transition: border-color 0.3s ease;
 }
 
 .textarea:hover,
